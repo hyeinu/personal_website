@@ -1,0 +1,39 @@
+.splash{
+    height: 100vh;
+    width: 100%;
+}
+body {
+  background: url(images/IMG_2650.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.mynavbar {
+  width: 45vw;
+  /*background-color: indianred;*/
+  radius: 10px;
+}
+
+.bkg-color{
+  background-color: white;
+}
+
+.aboutme{
+  background-color: #343a5f;
+  color: white;
+  padding: 75px 10px 0px 10px;
+}
+
+.education{
+  background-color: #794954;
+  color: white;
+  margin: 0px;
+  padding: 10px;
+}
+
+.projects{
+  color: #343a5f;
+  padding: 75px 10px 0px 10px;
+}

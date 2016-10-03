@@ -1,0 +1,19 @@
+import React, { Component } from 'react';
+
+export default class Education extends Component {
+  render(){
+    return (
+      <div id="education" className="education">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam quis porttitor nisi, a tempor dui. Proin malesuada mollis elit, vel sollicitudin elit congue vel. Donec a libero nec risus pellentesque interdum. Cras venenatis purus diam, eu blandit enim eleifend quis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean ultrices orci turpis, vel imperdiet justo iaculis eu. Phasellus odio est, euismod vitae risus vel, gravida commodo odio. Ut placerat et dui eget bibendum. Mauris lacinia quis orci vel bibendum. Quisque bibendum malesuada scelerisque. Donec ut luctus ante, id maximus libero. Duis placerat ex eget ligula dapibus euismod vitae a mi. Mauris ac congue purus, laoreet tincidunt eros. Cras nulla arcu, cursus id volutpat in, ultricies in risus.
+
+        Nam tempor feugiat massa, in facilisis orci vehicula id. Sed vulputate magna erat, vitae consectetur libero accumsan vel. Fusce tincidunt nisi at mauris facilisis interdum quis ut nisi. Ut nec dolor dui. Etiam sit amet lacinia ligula, sed tempus nunc. Nunc sem velit, lacinia quis dolor id, porttitor sodales diam. Mauris ac porta dolor, sed finibus lacus. Curabitur vulputate varius volutpat. Vivamus gravida nunc quis laoreet laoreet.
+
+        Nulla hendrerit nisl non est ullamcorper, a ornare enim ultrices. Nulla fermentum nisi molestie tincidunt pellentesque. Mauris lacus arcu, dapibus at elit nec, vulputate eleifend erat. Sed convallis augue nec velit aliquam sollicitudin. Sed sed tellus quis erat commodo auctor. Ut dignissim arcu id mi sodales, eu accumsan libero luctus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. In ornare urna sed pharetra mollis. Duis porta, tortor eget elementum pellentesque, enim ipsum ultricies nisi, gravida auctor ipsum massa eu tortor. Pellentesque sed urna at sapien tincidunt venenatis a volutpat elit. Sed nunc augue, scelerisque sed pharetra eget, euismod id nibh. Vestibulum bibendum libero eu molestie bibendum. Nam eleifend lectus leo, finibus eleifend tellus volutpat quis. Vivamus pharetra turpis quis nisl hendrerit, quis viverra elit condimentum.
+
+        Proin ultrices tempus lacus eu tempus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse porta turpis libero. Proin porta, est a commodo euismod, sapien orci tempor arcu, non consectetur dui eros a leo. Morbi consequat arcu non ante vulputate gravida. Etiam dictum ornare est, vel vehicula libero tincidunt nec. Suspendisse consectetur, purus non fermentum lobortis, urna metus scelerisque nunc, sed elementum nunc ipsum a mi. Sed malesuada lectus quam, ac semper quam mollis sit amet. Vivamus ac justo ut est vestibulum fringilla. Maecenas malesuada lorem nec condimentum bibendum. Ut libero mi, molestie eget elit sit amet, consequat tincidunt nibh. Maecenas posuere odio leo, a iaculis metus dapibus quis.
+
+        Suspendisse posuere non nisi eu tristique. Pellentesque eu turpis id metus sagittis pulvinar. Integer vestibulum sed ipsum in accumsan. Phasellus suscipit elit quam. Integer dapibus, erat et gravida varius, enim risus bibendum enim, ut egestas urna lacus eu leo. Phasellus erat magna, sagittis et nunc in, mollis luctus lorem. Morbi aliquam imperdiet mi, et faucibus magna tristique sit amet. Mauris id libero et ligula pharetra lobortis. Integer vehicula vel mi ac blandit. Sed commodo lorem urna, sit amet euismod enim tristique id. Nullam consectetur mauris massa, a consectetur lectus tincidunt eget.</p>
+      </div>
+    )
+  }
+}
