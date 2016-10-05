@@ -1,12 +1,23 @@
 import React, { Component } from 'react';
 
 export default class AboutMe extends Component {
-  render(){
+  render() {
     return (
-      <div id="about" className="aboutme">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam quis porttitor nisi, a tempor dui. Proin malesuada mollis elit, vel sollicitudin elit congue vel. Donec a libero nec risus pellentesque interdum. Cras venenatis purus diam, eu blandit enim eleifend quis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean ultrices orci turpis, vel imperdiet justo iaculis eu. Phasellus odio est, euismod vitae risus vel, gravida commodo odio. Ut placerat et dui eget bibendum. Mauris lacinia quis orci vel bibendum. Quisque bibendum malesuada scelerisque. Donec ut luctus ante, id maximus libero. Duis placerat ex eget ligula dapibus euismod vitae a mi. Mauris ac congue purus, laoreet tincidunt eros. Cras nulla arcu, cursus id volutpat in, ultricies in risus.
-
-      Nam tempor feugiat massa, in facilisis orci vehicula id. Sed vulputate magna erat, vitae consectetur libero accumsan vel. Fusce tincidunt nisi at mauris facilisis interdum quis ut nisi. Ut nec dolor dui. Etiam sit amet lacinia ligula, sed tempus nunc. Nunc sem velit, lacinia quis dolor id, porttitor sodales diam. Mauris ac porta dolor, sed finibus lacus. Curabitur vulputate varius volutpat. Vivamus gravida nunc quis laoreet laoreet.</p>
+      <div className="aboutme col-sm-9">
+      Hi my name is Hyein Yoo. I was born in South Korea but moved to the states when I was around 9 months old!
+      Currently, I am aiming to be a Full Stack Web Developer. The most recent projects I have been working on have mostly implemented the following: Mongo, Express, React, and Nodejs.
+      <h1>Exposure to:</h1>
+      <div className="text-center">
+        <span>
+          <img style={{height: '75px'}} src="src/images/mern.png" alt=""/>
+          <img style={{height: '75px'}} src="src/images/html_css_ecma.png" alt=""/>
+          <img style={{height: '75px'}} src="src/images/jq_bt_mui_rx.png" alt=""/>
+        </span>
+        <span>
+            <img style={{height: '75px'}} src="src/images/microsoft_office.png" alt=""/>
+            <img style={{height: '75px'}} src="src/images/ps_ai_dw.png" alt=""/>
+          </span>
+        </div>
       </div>
     )
   }

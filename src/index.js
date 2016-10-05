@@ -4,8 +4,9 @@ import { Router, Route, IndexRoute, browserHistory } from 'react-router'
 
 import './style.css'
 
-import App from './components/App'
+import Splash from './components/Splash'
 import Layout from './components/Layout'
+import AboutMe from './components/AboutMe'
 
 import injectTapEventPlugin from 'react-tap-event-plugin';
 injectTapEventPlugin();
@@ -13,9 +14,9 @@ injectTapEventPlugin();
 ReactDOM.render(
   <Router history = {browserHistory}>
     <Route path ='/' component = {Layout}>
-     <IndexRoute component={App}/>
-     {/* <Route path = '/register' component ={Register}/>
-     <Route path = '/login' component ={LoginForm}/>
+     <IndexRoute component={Splash} />
+     <Route path = '/about' component ={AboutMe} />
+     {/* <Route path = '/login' component ={LoginForm}/>
      <Route path = '/profile' component ={ViewProfile}/>
      <Route path = '/reviews' component ={BeerReview}/> */}
     </Route>

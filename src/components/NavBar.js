@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router';
 
 export default class NavBar extends Component{
   render(){
     return(
-      <nav className="navbar navbar-fixed-top navbar-inverse mynavbar center-block">
+      <nav className="navbar navbar-fixed-bottom navbar-inverse">
         <div className="container">
         <div className="navbar-header text-center">
           <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#mynavbar" >
@@ -12,13 +13,13 @@ export default class NavBar extends Component{
             <span className="icon-bar"></span>
             <span className="icon-bar"></span>
           </button>
-          <a className="navbar-brand" href="#">Home</a>
+          <Link to='/'><i className="glyphicon glyphicon-home" />Home</Link>
         </div>
         <div className="collapse navbar-collapse" id="mynavbar">
           <ul className="nav navbar-nav">
-            <li><a href="#about">About</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#projects">Projects</a></li>
+            <li><Link to="/about">About Me</Link></li>
+            <li><Link to="/about">Projects</Link></li>
+            <li><Link to="/about">Connect</Link></li>
           </ul>
         </div>
         </div>

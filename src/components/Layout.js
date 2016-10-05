@@ -5,9 +5,11 @@ import NavBar from './NavBar'
 export default class Layout extends Component {
   render() {
     return (
-    <div>
+    <div className="container">
+      <div className="row">
+        {this.props.children}
+      </div>
       <NavBar />
-      {this.props.children}
     </div>
     )
   }

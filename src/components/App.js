@@ -8,13 +8,8 @@ import Projects from './Projects'
 const App = React.createClass({
   render(){
     return (
-      <div>
+      <div className="container">
         <Splash />
-        <div className="bkg-color">
-          <Education />
-          <AboutMe />
-          <Projects />
-        </div>
       </div>
     );
   }
