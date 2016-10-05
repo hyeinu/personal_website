@@ -29,12 +29,16 @@ body {
 }
 
 .nameBadge{
-  padding-top: 10vh;
+  /*padding-top: 5vh;*/
   margin: auto;
 }
 
 .fa{
   padding: 5px;
+}
+
+.padBottom{
+  padding-bottom: 25px;
 }
 
 .connect{

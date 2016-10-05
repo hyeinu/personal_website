@@ -13,7 +13,7 @@ import injectTapEventPlugin from 'react-tap-event-plugin';
 injectTapEventPlugin();
 
 ReactDOM.render(
-  <Router history = {browserHistory} >
+  <Router history = {browserHistory}>
     <Route path ='/' component = {Layout}>
      <IndexRoute component={Splash} />
      <Route path = '/about' component ={AboutMe} />

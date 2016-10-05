@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 
 export default class Connect extends Component {
   render(){
-    let string = "<< CONNECT >>";
+    let string = "- CONNECT -";
     return (
       <div className="col-sm-9 text-center connect">
-        <h1>{string}</h1>
+        <h1>- CONNECT -</h1>
         <span>
           <a href="https://www.facebook.com/hyein.yoo.9"><i className="fa fa-5x fa-facebook-square" ></i></a>
           <a href="https://twitter.com/hyeinu65"><i className="fa fa-5x fa-twitter-square"></i></a>
