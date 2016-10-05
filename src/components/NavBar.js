@@ -13,13 +13,13 @@ export default class NavBar extends Component{
             <span className="icon-bar"></span>
             <span className="icon-bar"></span>
           </button>
-          <Link to='/'><i className="glyphicon glyphicon-home" />Home</Link>
+          <Link to='/' className="navbar-brand">Home</Link>
         </div>
         <div className="collapse navbar-collapse" id="mynavbar">
           <ul className="nav navbar-nav">
             <li><Link to="/about">About Me</Link></li>
             <li><Link to="/about">Projects</Link></li>
-            <li><Link to="/about">Connect</Link></li>
+            <li><Link to="/connect">Connect</Link></li>
           </ul>
         </div>
         </div>

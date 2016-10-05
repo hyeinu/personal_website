@@ -5,6 +5,7 @@ export default class Splash extends Component {
     return (
       <div className="splash container text-center">
         <img src='src/images/name_badge.png' className="img-responsive nameBadge " alt=""/>
+        <button className="btn resume">Download My Resume</button>
       </div>
     )
   }

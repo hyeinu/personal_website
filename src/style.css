@@ -11,17 +11,9 @@ body {
   -o-background-size: cover;
 }
 
-.mynavbar {
-  width: 45vw;
-  radius: 10px;
-}
-
-.bkg-color{
-  background-color: white;
-}
-
-.aboutme{
-  padding: 75px 10px 0px 10px;
+.resume{
+  border: 5px solid black;
+  padding: 5px;
 }
 
 .education{
@@ -37,6 +29,20 @@ body {
 }
 
 .nameBadge{
-  padding-top: 80px;
+  padding-top: 10vh;
   margin: auto;
+}
+
+.fa{
+  padding: 5px;
+}
+
+.connect{
+  margin-top: 35vh;
+}
+
+.btn{
+  padding: 10px;
+  height: 50px;
+  background-color: transparent !important;
 }
