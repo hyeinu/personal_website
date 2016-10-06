@@ -14,9 +14,6 @@ ReactDOM.render(
   <Router history = {browserHistory}>
     <Route path ='/' component = {Layout}>
      <IndexRoute component={Splash} />
-     <Route path = '/about' component ={AboutMe} />
-     <Route path = '/connect' component ={Connect} />
-     <Route path = '/projects' component ={Projects}/>
     </Route>
   </Router>,
   document.getElementById('root')

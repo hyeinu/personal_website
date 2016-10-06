@@ -13,13 +13,13 @@ export default class NavBar extends Component{
             <span className="icon-bar"></span>
             <span className="icon-bar"></span>
           </button>
-          <Link to='/' className="navbar-brand">Home</Link>
+          <button onClick={this.props.splash} className="navbar-brand">Home</button>
         </div>
         <div className="collapse navbar-collapse" id="mynavbar">
           <ul className="nav navbar-nav">
-            <li><Link to="/about">About Me</Link></li>
-            <li><Link to="/projects">Projects</Link></li>
-            <li><Link to="/connect">Connect</Link></li>
+            <li><button onClick={this.props.aboutme}>About Me</button></li>
+            <li><button onClick={this.props.projects}>Projects</button></li>
+            <li><button onClick={this.props.connect}>Connect</button></li>
           </ul>
         </div>
         </div>

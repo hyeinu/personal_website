@@ -30,7 +30,7 @@ export default class AboutMe extends Component {
         </span>
         </div>
         <div className="text-center">
-          <a href="/hyein_yoo-resume_v2.pdf" style={{ color: 'black' }}><button className="btn resume"><strong>Download My Resume</strong></button></a>
+          <a href="/hyein_yoo-resume_v2.pdf" target="_blank" style={{ color: 'black' }}><button className="btn resume"><strong>Download My Resume</strong></button></a>
         </div>
       </div>
     )
