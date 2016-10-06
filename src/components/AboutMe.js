@@ -29,7 +29,9 @@ export default class AboutMe extends Component {
           <img src="src/images/materialui.png" alt=""/>
         </span>
         </div>
-        <a href="/hyein_yoo-resume_v2.pdf" style={{ color: 'black' }}><button className="btn resume"><strong>Download My Resume</strong></button></a>
+        <div className="text-center">
+          <a href="/hyein_yoo-resume_v2.pdf" style={{ color: 'black' }}><button className="btn resume"><strong>Download My Resume</strong></button></a>
+        </div>
       </div>
     )
   }

@@ -19,6 +19,7 @@ body {
 .bkg{
   background-color: white;
   border-radius: 10px;
+  opacity: 0.75;
 }
 
 .nameBadge{
