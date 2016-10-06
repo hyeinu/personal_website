@@ -16,20 +16,12 @@ body {
   padding: 5px;
 }
 
-.education{
-  background-color: #794954;
-  color: white;
-  margin: 0px;
-  padding: 10px;
-}
-
-.projects{
-  color: #343a5f;
-  padding: 75px 10px 0px 10px;
+.bkg{
+  background-color: white;
+  border-radius: 10px;
 }
 
 .nameBadge{
-  /*padding-top: 5vh;*/
   margin: auto;
 }
 
@@ -38,11 +30,14 @@ body {
 }
 
 .padBottom{
-  padding-bottom: 25px;
+  padding-bottom: 70px;
 }
 
 .connect{
   margin-top: 35vh;
+}
+.projects{
+  margin-top: 15vh;
 }
 
 .btn{
