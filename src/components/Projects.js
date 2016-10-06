@@ -27,7 +27,7 @@ export default class Projects extends Component {
           <div className="thumbnail">
           <img className="img-responsive" src="src/images/menubuilder.png" alt="..." />
           <div className="caption">
-            <h3>Menu Builder</h3>
+            <h2>Menu Builder</h2>
             <p>
             Used MySQL for the database and vanilla React.
             The idea for this app was to allow restaurant owners to develop their menu and be able to add, delete, and edit items.
@@ -59,7 +59,7 @@ export default class Projects extends Component {
         <div className="col-xs-12 padBottom bkg text-center">
           <h1>Current Projects:</h1>
           <h3>Food Truck - React Native App</h3>
-          <a href="https://github.com/FigsAndRice/foodtruck"><i className="fa fa-4x fa-github-square"></i></a>
+          <a href="https://github.com/FigsAndRice/foodtruck-app"><i className="fa fa-4x fa-github-square"></i></a>
         </div>
       </div>
     )

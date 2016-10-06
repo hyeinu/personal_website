@@ -13,49 +13,40 @@ export default class Layout extends Component {
     this.state = {
       view: 'splash'
     }
-    this._onClickSplash = this._onClickSplash.bind(this);
-    this._onClickAboutMe = this._onClickAboutMe.bind(this);
-    this._onClickConnect = this._onClickConnect.bind(this);
-    this._onClickProjects = this._onClickProjects.bind(this);
+    this._changeView = this._changeView.bind(this);
   }
-  _onClickSplash(){
+  _changeView(view){
     this.setState({
-      view: 'splash'
-    })
-  }
-  _onClickAboutMe(){
-    this.setState({
-      view: 'aboutme'
-    })
-  }
-  _onClickConnect(){
-    this.setState({
-      view: 'connect'
-    })
-  }
-  _onClickProjects(){
-    this.setState({
-      view: 'projects'
+      view
     })
   }
   render() {
     let { view } = this.state;
     let child;
-    if(view === 'splash'){
-      child = <Splash />
-    } else if(view === 'aboutme'){
-      child = <AboutMe />
-    } else if (view === 'connect'){
-      child = <Connect />
-    } else if (view === 'projects'){
-      child = <Projects />
+
+    switch(view){
+      case 'splash':
+        child = <Splash />;
+        break;
+      case 'aboutme':
+        child = <AboutMe />
+        break;
+      case 'connect':
+        child = <Connect />
+        break;
+      case 'projects':
+        child = <Projects />
+        break;
+      default:
+        child = <Splash />;
+        break;
     }
     return (
     <div className="container">
       <div className="row">
         {child}
       </div>
-      <NavBar splash={this._onClickSplash} aboutme={this._onClickAboutMe} connect={this._onClickConnect} projects={this._onClickProjects} />
+      <NavBar changeView={this._changeView} />
     </div>
     )
   }

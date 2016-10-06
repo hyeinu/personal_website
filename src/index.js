@@ -1,20 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Router, Route, IndexRoute, browserHistory } from 'react-router';
 
 import './style.css'
 
-import Splash from './components/Splash'
 import Layout from './components/Layout'
-import AboutMe from './components/AboutMe'
-import Connect from './components/Connect'
-import Projects from './components/Projects'
 
 ReactDOM.render(
-  <Router history = {browserHistory}>
-    <Route path ='/' component = {Layout}>
-     <IndexRoute component={Splash} />
-    </Route>
-  </Router>,
+  <Layout />,
   document.getElementById('root')
 );
